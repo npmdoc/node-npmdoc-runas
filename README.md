@@ -1,6 +1,6 @@
 # npmdoc-runas
 
-#### api documentation for  [runas (v3.1.1)](https://github.com/atom/node-runas#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-runas.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-runas) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-runas.svg)](https://travis-ci.org/npmdoc/node-npmdoc-runas)
+#### basic api documentation for  [runas (v3.1.1)](https://github.com/atom/node-runas#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-runas.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-runas) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-runas.svg)](https://travis-ci.org/npmdoc/node-npmdoc-runas)
 
 #### Run command synchronously with administrator privilege.
 
@@ -77,7 +77,8 @@
         "prepublish": "grunt coffee",
         "test": "node node_modules/jasmine-focused/bin/jasmine-focused --captureExceptions --coffee spec"
     },
-    "version": "3.1.1"
+    "version": "3.1.1",
+    "bin": {}
 }
 ```
 
